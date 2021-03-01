@@ -3,8 +3,8 @@ const sgMail = require('@sendgrid/mail')
 sgMail.setApiKey(process.env.SENDGRID_API_KEY)///letting send grid for which api key we are working
 
 // sgMail.send({
-//     to: 'atulanandap@gmail.com',
-//     from: 'atulanandap@gmail.com',
+//     to: 'example@gmail.com',
+//     from: 'example@gmail.com',
 //     subject: 'This is a creation',
 //     text: 'reaching Out'
 // })
